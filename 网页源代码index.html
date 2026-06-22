@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网络安全个人主页</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", sans-serif;
+        }
+        body {
+            background-color: #0c121c;
+            color: #d0d8e3;
+            line-height: 1.8;
+        }
+        /* 头部样式 */
+        header {
+            background: linear-gradient(120deg, #0f2838, #14354a);
+            padding: 55px 20px;
+            text-align: center;
+            border-bottom: 3px solid #28c76f;
+        }
+        h1 {
+            color: #28c76f;
+            font-size: 34px;
+            margin-bottom: 10px;
+        }
+        .header-desc {
+            color: #94a3b8;
+            font-size: 17px;
+        }
+        /* 内容容器 */
+        .container {
+            max-width: 1020px;
+            margin: 45px auto;
+            padding: 0 20px;
+        }
+        /* 卡片模块 带hover动画 */
+        .safe-card {
+            background-color: #162333;
+            padding: 28px;
+            margin: 25px 0;
+            border-radius: 12px;
+            border-left: 5px solid #28c76f;
+            transition: all 0.3s ease;
+        }
+        .safe-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 22px rgba(40, 199, 111, 0.18);
+        }
+        .safe-card h2 {
+            color: #28c76f;
+            margin-bottom: 16px;
+            font-size: 22px;
+        }
+        .safe-card p {
+            margin: 8px 0;
+            font-size: 16px;
+        }
+        .safe-card ul {
+            padding-left: 22px;
+        }
+        .safe-card li {
+            margin: 10px 0;
+        }
+        /* 底部 */
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 70px;
+            background-color: #111a27;
+            color: #64748b;
+            border-top: 1px solid #1f3044;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🔐 网络安全个人学习网站</h1>
+        <p class="header-desc">AI辅助UI设计 · 个人网络安全站点</p>
+    </header>
+
+    <div class="container>
+        <!-- 1.个人信息区域 -->
+        <div class="safe-card">
+            <h2>👤 个人信息</h2>
+            <p>专业：计算机网络技术</p>
+            <p>学习方向：个人信息防护、Web安全、基础攻防认知</p>
+            <p>学号：2025381108 姓名：胡新宇</p>
+        </div>
+
+        <!-- 2.网络安全科普板块 -->
+        <div class="safe-card">
+            <h2>🛡️ 日常网络安全防护指南</h2>
+            <ul>
+                <li>不点击陌生短信、社交软件内不明链接，防范钓鱼网站窃取账号密码</li>
+                <li>账号使用大小写字母+数字+特殊符号混合高强度密码，开启二次验证</li>
+                <li>公共WiFi环境下禁止登录网银、支付软件、社交账号，防止数据抓包窃取</li>
+                <li>拒绝下载破解软件、来路不明压缩包，避免木马、勒索病毒入侵设备</li>
+                <li>不向网络陌生人泄露身份证、手机号、银行卡、家庭住址等隐私数据</li>
+                <li>手机、电脑定期更新系统补丁，开启系统自带防火墙与安全防护功能</li>
+            </ul>
+        </div>
+
+        <!-- 3.网络安全学习路线 -->
+        <div class="safe-card">
+            <h2>📚 我的网络安全学习规划</h2>
+            <ul>
+                <li>基础阶段：计算机网络原理、操作系统安全配置、TCP/IP传输安全</li>
+                <li>入门阶段：Web安全基础，认识SQL注入、XSS跨站、CSRF基础漏洞</li>
+                <li>实操阶段：防火墙策略、病毒查杀、漏洞修复、应急处置流程</li>
+                <li>拓展阶段：《网络安全法》解读、等保基础、个人数据保护规范</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 网络安全个人站点</p>
+    </footer>
+</body>
+</html>
